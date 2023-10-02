@@ -7,7 +7,8 @@ A straightforward digital clock that displays the current time, date, and day of
 
 ## Preview
 
-![Digital Clock Preview](clock-preview.png)
+![image](https://github.com/Rutiktorambe/Digital-Clock/assets/114429614/8a50ea1a-2716-45bb-881b-9e59007d8639)
+
 
 ## Features
 
