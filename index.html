@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DIGITAL-CLOCK</title>
+    <link rel="stylesheet" href="style.css">
+    <link href='https://fonts.googleapis.com/css?family=Orbitron' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+
+    <div class="clock">
+        <div class="inside">
+            <div class="content">
+                <p class='days'><span id="sun">SUN</span>&nbsp;<span id="mon">MON</span>&nbsp;<span id=tus"">TUS</span>&nbsp;<span id="wed">WED</span>&nbsp;<span id="thu">THU</span>&nbsp;<span id="fri">FRI</span>&nbsp;<span id="sat">SAT</span></p>
+                <br>
+                <p class='text'style="font-family: Orbitron;"><span id='hours'></span>:<span id='min'></span>:<span id='sec'class="fa-fade" ></span>&nbsp;&nbsp;<span id='time'></span></p>
+                <p id=date>
+                    <span id='cal' class="cal fa-sharp fa-solid fa-calendar-days fa-lg"> </span>
+                    <span id='day'></span>
+                    <span id='month'></span>
+                    <span id='year'></span>
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
